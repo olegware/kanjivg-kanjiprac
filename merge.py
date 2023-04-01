@@ -1,7 +1,7 @@
 import os
 import xml.etree.ElementTree as ET
 
-kanji_folder = "C:/Users/Viktor/Desktop/kanji"
+kanji_folder = "C:/Users/Path/to/your/kanji/svg/files"  # add actual path to your kanji folder with svg files
 output_file = "kanjivg_merged.xml"
 
 kanji_files = [f for f in os.listdir(kanji_folder) if f.endswith(".svg")]
