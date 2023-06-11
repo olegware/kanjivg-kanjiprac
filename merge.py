@@ -1,3 +1,4 @@
+# automatically imports the svg files for easy implementation of the kanjiVG library 
 import os
 import xml.etree.ElementTree as ET
 
